@@ -24,7 +24,7 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
-/* From Uiverse.io by Nawsome */ 
+
 .loadingspinner {
   --square: 26px;
   --offset: 30px;
