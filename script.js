@@ -27,13 +27,3 @@ menuIcon.onclick = () => {
 };
 
 
-// Loader visible for 5 seconds
-window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-    setTimeout(() => {
-        loader.classList.add("fade-out");
-        setTimeout(() => loader.style.display = "none", 1000);
-    }, 2500);
-});
-
-
